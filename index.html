@@ -1,58 +1,134 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>formular_workshop</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
+<head>
+<meta charset="utf-8">
+<title>Školní IT Klub</title>
+<link rel="stylesheet" href="style.css">
+</head>
 
-   <h1>Školní IT Klub</h1>
-<p>Jsme studentský klub zaměřený na programování a technologie. 
-Pořádáme workshopy, turnaje a pomáháme ostatním studentům.</p>
+<body>
 
+<h1>Školní IT Klub</h1>
 
+<p>
+Jsme studentský klub zaměřený na programování, technologie a digitální svět.
+Naším cílem je pomáhat studentům naučit se nové IT dovednosti, poznat moderní technologie
+a také se pobavit při různých aktivitách.
+</p>
 
-<ul>
-  <li>Workshopy programování</li>
-  <li>Turnaje v e-sportu</li>
-  <li>Tvorba webových stránek</li>
-  <li>Pomoc s IT projekty</li>
-  <li>Exkurze do IT firem</li>
-</ul>
-      <form> 
-         <form>
-  <label>Jméno:</label>
-  <input type="text" required>
+<p>
+V našem klubu můžeš poznat nové kamarády, pracovat na projektech,
+účastnit se soutěží nebo se naučit vytvářet vlastní hry a webové stránky.
+</p>
 
-  <label>Email:</label>
-  <input type="email" required>
-
-  <label>Vyber akci:</label>
-  <select>
-    <option>Workshop</option>
-    <option>Turnaj</option>
-  </select>
-
-  <label>Zpráva:</label>
-  <textarea></textarea>
-
-  <button type="submit">Odeslat</button>
-</form>
-
-         Jak moc se tesite?
-         <input type="range" name="range" min="1" max="10"> <br>
+<h2>Co děláme</h2>
 
 
 
+<main class="main">
 
+    
 
-
-
-
-      </form>    
+    <section id="asijska" class="card">
         
-          
-                     
+        <a href="https://www.coursera.org/career-academy?utm_medium=sem&utm_source=bg&utm_campaign=b2c_emea_x_multi_ftcof_career-academy_cx_dr_bau_bg_pmax_gc_s1_en_m_x_24-02_x&campaignid=662733387&adgroupid=1246847501021540&device=c&keyword=www.coursera.org&matchtype=b&network=o&devicemodel=&adposition=&creativeid=77928096770707&adgroup=b2c_emea_x_multi_cx_bau_bg_s1_aud-sgl_x_npl-sr-thm_x_hyb_x_x_career-academy_x&querystring=Workshopy%20programov%C3%A1n%C3%AD%20(HTML,%20CSS,%20JavaScript)&targetid=kwd-2329727700627205:loc-51&bidmatchtype=bb&extensionid=&msclkid=bd0e6d4a07f01eea067304fa130d00eb" target="_blank">Workshopy programování (HTML, CSS, JavaScript)</a>  <br>
+        <a href="https://www.esport.cz" target="_blank">Turnaje v e-sportu</a><br>
+        <a href="https://www.webnode.com/cs/web-stranka/?utm_source=bing&utm_medium=cpc&utm_campaign=CZ-CZ-SEA-MSA_Web&utm_campaign_id=391302091&utm_term=CRT-NON-MIX_web_stranek&utm_adgroup_id=1196269419490534&trc_cr=74766948199139&trc_cp=CZ-CZ&msclkid=1e67e05abc811a9fa57889eaa4922294" target="_blank">Tvorba webových stránek</a> <br>
+        <a href="https://www.vasitkonzultant.cz/" target="_blank">Pomoc s IT projekty</a> <br>
+        <a href="https://www.teleinformatika.eu/aktualne/2024/04/exkurze-do-jedne-z-nejvetsich-it-firem-tietoevry-ostrava/" target="_blank">Exkurze do IT firem</a><br>
+        <a href="https://skillmea.cz/blog/portfolio-programatora" target="_blank">Společné programátorské projekty</a> <br>
+        <a href="https://informatecdigital.com/cs/10-nejslibn%C4%9Bj%C5%A1%C3%ADch-nov%C3%BDch-technologi%C3%AD/" target="_blank">Diskuze o nových technologiích</a><br>
 
+
+
+
+
+    </section>
+
+    
+   
+</main>
+<br><br><br>
+
+
+
+<h2>Proč se přidat</h2>
+
+<p>
+Členství v IT klubu ti může pomoci získat nové zkušenosti,
+zlepšit tvoje programátorské schopnosti a připravit se na budoucí práci v IT.
+Navíc je to skvělá příležitost poznat lidi, kteří mají stejné zájmy.
+</p>
+<br>
+<br>
+<h2>Naše aktivity během roku</h2>
+
+<ol>
+<li>Září – úvodní setkání a seznámení</li>
+<li>Říjen – workshop tvorby webu</li>
+<li>Listopad – e-sport turnaj</li>
+<li>Prosinec – vánoční IT soutěž</li>
+<li>Leden – návštěva IT firmy</li>
+<li>Únor – hackathon</li>
+<li>Březen – workshop programování her</li>
+</ol><br><br><br><br>
+
+<h2>Přihláška na akci</h2> <br><br>
+
+<form>
+
+<label>Jméno:</label><br>
+<input type="text" name="name" required><br><br>
+
+<label>Příjmení:</label><br>
+<input type="text" name="surname" required><br><br>
+
+<label>Email:</label><br>
+<input type="email" name="email" required><br><br>
+
+<label>Ročník:</label><br>
+<select name="rocnik">
+<option>6. třída</option>
+<option>7. třída</option>
+<option>8. třída</option>
+<option>9. třída</option>
+</select>
+<br><br>
+
+<label>Vyber akci:</label><br>
+<select name="akce">
+<option>Workshop programování</option>
+<option>E-sport turnaj</option>
+<option>Tvorba webových stránek</option>
+<option>Exkurze do IT firmy</option>
+</select>
+<br><br>
+
+<label>Jak moc se těšíš?</label><br>
+<input type="range" name="teseni" min="1" max="10">
+<br><br>
+
+<label>Chceš dostávat informace o dalších akcích?</label><br>
+<input type="radio" name="info"> Ano<br>
+<input type="radio" name="info"> Ne<br>
+
+<label>Zpráva nebo otázka:</label><br>
+<textarea name="zprava" rows="5" cols="40"></textarea>
+
+<button type="submit">Odeslat</button>
+
+</form> <br><br><br>
+
+<h2>Kontakt</h2>
+
+<p>Email: itklub@skola.cz</p>
+<p>Instagram: @itklub_skola</p>
+
+<footer>
+<p>© 2026 Školní IT Klub</p>
+</footer>
+
+</body>
 </html>
+</html>
+
